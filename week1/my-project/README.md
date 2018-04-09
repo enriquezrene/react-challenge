@@ -10,3 +10,29 @@ Webpack bundles all your JavaScript together into a single file. This includes e
 ### Why Bundle?
 A single .js file is easier to deploy and will usually download faster than multiple small files.
 
+Usage
+---
+ 
+Start the development server with this command:
+ 
+```
+npm start
+```
+ 
+ 
+ 
+Setup
+---
+ 
+```
+npm install
+```
+ 
+ 
+ 
+Compile
+---
+ 
+```
+npm run compile
+```
