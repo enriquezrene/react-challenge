@@ -36,3 +36,5 @@ Compile
 ```
 npm run compile
 ```
+
+Visit http://localhost:3000/
