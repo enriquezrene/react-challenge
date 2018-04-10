@@ -16,14 +16,22 @@ function TaskTitle(props) {
     );
 }
 
-function TaskColumn(props) {
-    return (
-        <div className={props.position}>
-            <TaskTitle title={props.title}/>
-            <Task description={props.taskOne}/>
-            <Task description={props.taskTwo}/>
-        </div>
-    );
+class TaskColumn extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        return (
+            <div className={this.props.position}>
+                <TaskTitle title={this.props.title}/>
+                <Task description={this.props.taskOne}/>
+                <Task description={this.props.taskTwo}/>
+            </div>
+        );
+    }
+    
 }
 
 export default TaskColumn;
