@@ -6,7 +6,9 @@
 - props stands for properties
 
 ## Pure and impure function
+
 JS has 2 kind of functions:
+
 Pure
 ---
 It does not change the inputs
